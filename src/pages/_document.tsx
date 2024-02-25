@@ -1,6 +1,7 @@
 import Document, { DocumentContext, DocumentInitialProps } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
+// 기본 Document를 MyDocument로 덮어씀
 export default class MyDocument extends Document {
   static async getInitialProps(
     ctx: DocumentContext
@@ -15,15 +16,17 @@ export default class MyDocument extends Document {
             sheet.collectStyles(<App {...props} />),
         });
 
+      // 기본 Document의 초깃값을 유용한다.
       const initialProps = await Document.getInitialProps(ctx);
 
+      //initialProps에 더해, style을 추가해서 반환한다.
       return {
         ...initialProps,
         styles: [
-          <>
-            {initialProps.styles}
-            {sheet.getStyleElement()}
-          </>,
+          //원래 스타일
+          initialProps.styles,
+          //스타일드 컴포넌트의 style
+          sheet.getStyleElement(),
         ],
       };
     } finally {
