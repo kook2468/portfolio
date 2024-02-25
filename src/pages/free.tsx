@@ -5,11 +5,11 @@ const About: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Contact</title>
+        <title>Free</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <p>Contact 페이지</p>
+        <p>Free 페이지</p>
       </main>
     </div>
   );
