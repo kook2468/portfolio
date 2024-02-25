@@ -24,21 +24,25 @@
 
 @kook 작성 예정
 
-- 프론트엔드 : React, Typescript, NextJS, Styled-Components, React Query
-- 아이디어 회의 : Slack, Notion, Google Meet
+- 프론트엔드 : React, Typescript, NextJS, Styled-Components, Chart.js, React Query, Material UI
 
 ## 📌주요 기능
 
-- 프로젝트 대시보드
-- 업무 필터별 노출
-- 업무 Dependency 구성
-- 업무 담당자 지정
-- Chat 기능
+- 자기소개
+- Resume Page(업무 필터별 노출, Dependency 구성, 담당자 지정)
+- Chart 대시보드
+- 채널톡 연동
 - 데스크톱 알림
 
 ## ✒️API
 
 ## 📌Todo
+
+1. 자기소개 페이지
+   : 자기소개, 기술 스택, ...
+
+2. Resume
+   : Swit 형식의 칸반 뷰
 
 - [Swit](https://swit.io/?utm_source=google&utm_medium=cpc&utm_campaign=kr-232q_essential-brand-traffic-swit-mass&utm_content=sa-adwords_search_ads-all_devices-brand&gad_source=1&gclid=CjwKCAiAqY6tBhAtEiwAHeRopaJmwZK56h9BICJF4iQGtaICIPhO0oQFfRzFkcLq8iHuJKmk16VeDhoC25sQAvD_BwE) 참조
 - 프로젝트 대시보드
@@ -46,7 +50,19 @@
   - 캘린더 뷰
   - 대시보드
 - Compact 필터
-- Chat 기능
+
+3. Chart 대시보드
+
+- 나에 대한 취미/특징을 Chart 기반 대시보드로 제공
+
+4. Free
+
+- 모든걸 클릭 했을때 완성
+
+5. etc
+
+- 데스크톱 알림 기능 넣기
+- 채널톡 연동 기능 넣기
 
 ## 📝참조 사이트
 
